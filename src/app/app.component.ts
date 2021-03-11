@@ -17,4 +17,14 @@ export class AppComponent {
   };
   arr=["EMON","ROBIN","SHAKIL"];
   siteUrl = window.location.href;
+  getNameAlert(){
+    alert("Zahidul Emon")
+  };
+  getNameAlert2(nameParm: any){
+    alert(nameParm)
+  };
+  myName = "Emon from var"
+  getNameAlert3(nameParm: any){
+    alert(nameParm)
+  };
 }
